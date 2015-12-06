@@ -1,0 +1,190 @@
+---
+layout: default
+title: Publications
+sitemap:
+    priority: 0.9
+    changefreq: monthly
+---
+
+{% assign collection = site.pubs | sort: "date" | group_by: "type" %}
+
+
+{% for group in collection %}
+    {% if group.name == 'draft' %}
+
+    <h4> Drafts <span class="badge">{{ group.items | size }}</span></h4>    
+
+    <ul class="list-group">
+
+      {% assign pubs = group.items | sort: "date" | reverse %}
+      {% for publication in pubs %}
+
+        <li class="list-group-item">
+          {{ publication.authors | join: ', ' }}.
+          <strong>{{ publication.title }}</strong>.
+            {% if publication.journal %} {{ publication.journal }}, {% endif %}
+            {% if publication.note %} {{ publication.note }}. {% endif %}
+            {% if publication.volume %} volume {{ publication.volume }}. {% endif %}
+            {% if publication.pages %} Pages {{ publication.pages }}. {% endif %}
+            {% if publication.date %} {{ publication.date | date: "%d %B %Y" }}.
+	    {% elsif publication.year %} {{ publication.year }}.
+	    {% endif %}                     
+	    {% if publication.resource.type == 'doi' %}
+	      <a href="http://dx.doi.org/{{ publication.resource.value }}">doi: {{ publication.resource.value }}</a>
+	    {% elsif publication.resource.type == 'url' %}
+	      <a href="{{ publication.resource.value }}">{{ publication.resource.value }}</a>
+            {% elsif publication.resource.type == 'pdf-report' %}
+	      [<a href="{{ publication.resource.pdf-url }}">PDF</a>]
+              [<a href="{{ publication.resource.report-url }}">PDF ({{ publication.resource.report-note }})</a>]
+            {% elsif publication.resource.type == 'pdf' %}
+	      [<a href="{{ publication.resource.pdf-url }}">PDF</a>]
+            {% endif %}          
+        </li>
+      {% endfor %}
+    {% endif %}
+    </ul>
+{% endfor %}
+
+{% for group in collection %}
+    {% if group.name == 'article' %}
+
+    <h4>Journal Papers <span class="badge">{{ group.items | size }}</span></h4>
+
+    <ul class="list-group">
+
+      {% assign pubs = group.items | sort: "date" | reverse %}
+      {% for publication in pubs %}
+
+        <li class="list-group-item">
+          {{ publication.authors | join: ', ' }}.
+          <strong>{{ publication.title }}</strong>.
+          {% if group.name == 'article' %}
+            {% if publication.journal %} {{ publication.journal }}, {% endif %}
+            {% if publication.volume %} volume {{ publication.volume }}. {% endif %}
+            {% if publication.number %} number {{ publication.number }}. {% endif %}
+            {% if publication.pages %} Pages {{ publication.pages }}. {% endif %}
+            {% if publication.date %} {{ publication.date | date: "%d %B %Y" }}.
+	    {% elsif publication.year %} {{ publication.year }}.
+	    {% endif %}          
+          {% endif %}
+          {% if publication.publisher %}{{ publication.publisher }}.{% endif %}
+          {% if publication.note %}<i>{{ publication.note }}.</i>{% endif %}
+          {% if publication.resource %}
+	    {% if publication.resource.type == 'doi' %}
+	      <a href="http://dx.doi.org/{{ publication.resource.value }}">doi: {{ publication.resource.value }}</a>
+	    {% elsif publication.resource.type == 'url' %}
+	      <a href="{{ publication.resource.value }}">{{ publication.resource.value }}</a>
+            {% elsif publication.resource.type == 'pdf-report' %}
+	      [<a href="{{ publication.resource.pdf-url }}">PDF</a>]
+              [<a href="{{ publication.resource.report-url }}">PDF ({{ publication.resource.report-note }})</a>]
+            {% elsif publication.resource.type == 'pdf' %}
+	      [<a href="{{ publication.resource.pdf-url }}">PDF</a>]
+            {% endif %}
+          {% endif %}
+        </li>
+        {% endfor %}        
+    </ul>
+    {% endif %}
+{% endfor %}
+    
+{% for group in collection %}
+    {% if group.name == 'workshop' %}
+
+      <h4>Workshop Papers <span class="badge">{{ group.items | size }}</span></h4>
+      <ul class="list-group">
+
+      {% assign pubs = group.items | sort: "date" | reverse %}        
+      {% for publication in pubs %}
+
+        <li class="list-group-item">
+          {{ publication.authors | join: ', ' }}.
+          <strong>{{ publication.title }}</strong>.          
+          {% if publication.publisher %}{{ publication.publisher }}.{% endif %}
+          {% if publication.note %}<i>{{ publication.note }}.</i>{% endif %}
+          {% if publication.date %} {{ publication.date | date: "%d %B %Y" }}.
+	  {% elsif publication.year %} {{ publication.year }}.
+	  {% endif %}          
+          {% if publication.resource %}
+	    {% if publication.resource.type == 'doi' %}
+	      <a href="http://dx.doi.org/{{ publication.resource.value }}">doi: {{ publication.resource.value }}</a>
+	    {% elsif publication.resource.type == 'url' %}
+	      <a href="{{ publication.resource.value }}">{{ publication.resource.value }}</a>
+            {% elsif publication.resource.type == 'pdf-report' %}
+	      [<a href="{{ publication.resource.pdf-url }}">PDF</a>]
+              [<a href="{{ publication.resource.report-url }}">PDF ({{ publication.resource.report-note }})</a>]
+            {% elsif publication.resource.type == 'pdf' %}
+	      [<a href="{{ publication.resource.pdf-url }}">PDF</a>]
+            {% endif %}
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+{% endfor %}
+
+{% for group in collection %}
+    {% if group.name == 'poster' %}
+
+      <h4> Posters <span class="badge">{{ group.items | size }}</span></h4>
+    <ul class="list-group">
+
+      {% assign pubs = group.items | sort: "year" | reverse %}
+      {% for publication in pubs %}
+
+        <li class="list-group-item">
+          {{ publication.authors | join: ', ' }}.
+          <strong>{{ publication.title }}</strong>.          
+          {% if publication.publisher %}{{ publication.publisher }}.{% endif %}
+          {% if publication.note %}<i>{{ publication.note }}.</i>{% endif %}
+          {% if publication.year %}{{ publication.year }}.{% endif %}
+          {% if publication.resource %}
+	    {% if publication.resource.type == 'doi' %}
+	      <a href="http://dx.doi.org/{{ publication.resource.value }}">doi: {{ publication.resource.value }}</a>
+	    {% elsif publication.resource.type == 'url' %}
+	      <a href="{{ publication.resource.value }}">{{ publication.resource.value }}</a>
+            {% elsif publication.resource.type == 'pdf-report' %}
+	      [<a href="{{ publication.resource.pdf-url }}">PDF</a>]
+              [<a href="{{ publication.resource.report-url }}">PDF ({{ publication.resource.report-note }})</a>]
+            {% elsif publication.resource.type == 'pdf' %}
+	      [<a href="{{ publication.resource.pdf-url }}">PDF</a>]
+            {% endif %}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+   {% endif %}
+    {% endfor %}
+
+{% for group in collection %}
+    {% if group.name == 'unpub' %}
+
+      <h4> Unpublished <span class="badge">{{ group.items | size }}</span></h4>
+    <ul class="list-group">
+
+      {% assign pubs = group.items | sort: "year" | reverse %}
+      {% for publication in pubs %}
+
+        <li class="list-group-item">
+          {{ publication.authors | join: ', ' }}.
+          <strong>{{ publication.title }}</strong>.          
+          {% if publication.publisher %}{{ publication.publisher }}.{% endif %}
+          {% if publication.note %}<i>{{ publication.note }}.</i>{% endif %}
+          {% if publication.year %}<i>{{ publication.year }}.</i>{% endif %}
+          {% if publication.resource %}
+	    {% if publication.resource.type == 'doi' %}
+	      <a href="http://dx.doi.org/{{ publication.resource.value }}">doi: {{ publication.resource.value }}</a>
+	    {% elsif publication.resource.type == 'url' %}
+	      <a href="{{ publication.resource.value }}">{{ publication.resource.value }}</a>
+            {% elsif publication.resource.type == 'pdf-report' %}
+	      [<a href="{{ publication.resource.pdf-url }}">PDF</a>]
+              [<a href="{{ publication.resource.report-url }}">PDF ({{ publication.resource.report-note }})</a>]
+            {% elsif publication.resource.type == 'pdf' %}
+	      [<a href="{{ publication.resource.pdf-url }}">PDF</a>]
+            {% endif %}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+   {% endif %}
+{% endfor %}    
+    

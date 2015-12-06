@@ -1,0 +1,9 @@
+name: Valeria de Paiva
+markdown: redcarpet
+highlighter: pygments
+permalink: /blog/:year/:month/:day/:title.html
+collections:
+  services:
+    output: false
+  pubs:
+    output: false

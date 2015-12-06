@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap" ng-app="HomePageApp">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid" id="navfluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">{{ site.name }}</a>
+          </div>
+	  <div>
+            <div class="collapse navbar-collapse" id="navigationbar">
+            <ul class="nav navbar-nav">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/pubs.html">Publications</a></li>
+            </ul>
+            </div>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container">
+        <div class="well">
+          <h1>{{ page.title }}</h1>
+        </div>
+	<div class="row">
+	  <div class="col-md-2">
+	      <img src="images/valeria-nuance.jpg" class="img-responsive" alt="Valeria's photo">
+	  </div>
+	  <div class="col-md-10">
+	    {{ content }}
+	  </div>
+	  <div class="col-md-1">
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+	<p class="text-right" class="text-muted credit">
+	<small>
+	  All rights reserved: <a href="index.html">Valeria de Paiva</a>. Powered by <a href="http://jekyllrb.com">Jekyll</a>, <a href="https://github.com/Shopify/liquid/wiki">Liquid</a>, <a href="http://getbootstrap.com">Bootstrap</a> and <a href="http://github.com">GitHub</a>. 
+	</small>
+	</p>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="http://code.jquery.com/jquery.js"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+   </body>
+</html>
