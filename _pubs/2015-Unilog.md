@@ -1,5 +1,5 @@
 ---
-type: abstract
+type: poster
 authors:
   - Samuel Gomes da Silva
   - Valeria de Paiva
