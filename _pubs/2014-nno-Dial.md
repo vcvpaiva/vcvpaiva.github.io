@@ -11,6 +11,4 @@ date: 2014-01-04
 resource:
   type: pdf-report
   pdf-url: includes/pubs/nno-Dial-2014.pdf
-
- 
 ---
