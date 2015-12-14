@@ -11,6 +11,6 @@ note: "Proceedings of the 7th Global WordNet Conference"
 date: 2014-02-01
 resource:
   type: pdf
-  pdf-url: includes/pubs/gwc-nomlex-2014.pdf
+  pdf-url: includes/pubs/gwc2014.nomlex.pdf
 
 ---
