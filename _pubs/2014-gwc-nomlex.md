@@ -1,17 +1,16 @@
 ---
 type: article
 authors:
+  - Livy Real Coelho
   - Alexandre Rademaker
   - Valeria de Paiva
   - Gerard de Melo
-  - Livy Real
-  - Maira Gatti
-title: "OpenWordNet-PT: A Project Report"
+title: "Embedding nomlex-br nominalizations into openwordnet-pt"
 journal: "GWN"
 note: "Proceedings of the 7th Global WordNet Conference"
-date: 2014-01-01
+date: 2014-02-01
 resource:
   type: pdf
-  pdf-url: includes/pubs/own-pt-report2014.pdf
+  pdf-url: includes/pubs/gwc-nomlex-2014.pdf
 
 ---
