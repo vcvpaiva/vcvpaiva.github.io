@@ -2,7 +2,7 @@
 type: article
 authors:
   - Apostolos Syropoulos
-  - Natasha Alechina
+  - Valeria de Paiva
 title: "Fuzzy Topological Systems"
 journal: "arXiv"
 note: "Proceedings of the 8th Panhellenic Logic Symposium, July 8,2011, Ioannina, Greece"
