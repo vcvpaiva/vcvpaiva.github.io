@@ -7,4 +7,4 @@ collections:
   pubs:
     output: false
   talks:
-    output:false
+    output: false
