@@ -1,0 +1,22 @@
+---
+layout: default
+title: Projects
+sitemap:
+    priority: 0.9
+    changefreq: monthly
+---
+
+{% assign collection = site.talks | sort: "year" | reverse %}
+
+<ul class="list-group">
+  {% for talk in collection %}
+        <li class="list-group-item">          
+          <strong>{{ project.title }}</strong>.
+          {% if project.venue %} {{ project.venue }}. {% endif %}
+          {% if project.year %} {{ project.year }}. {% endif %}
+            {% if project.webpage %}
+                  [<a href="{{ project.webpage }}">More information</a>]
+            {% endif %}            
+        </li>
+{% endfor %}
+</ul>  
