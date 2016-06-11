@@ -6,10 +6,10 @@ sitemap:
     changefreq: monthly
 ---
 
-{% assign collection = site.talks | sort: "year" | reverse %}
+{% assign collection = site.projects | sort: "year" | reverse %}
 
 <ul class="list-group">
-  {% for talk in collection %}
+  {% for project in collection %}
         <li class="list-group-item">          
           <strong>{{ project.title }}</strong>.
           {% if project.venue %} {{ project.venue }}. {% endif %}
