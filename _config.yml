@@ -8,3 +8,5 @@ collections:
     output: false
   talks:
     output: false
+  projects:
+    output: false 
