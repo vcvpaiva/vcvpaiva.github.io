@@ -8,7 +8,7 @@ note: "Proceedings of the Fifth Logical and Semantic Frameworks, with Applicatio
 date: 2011-04-22
 resource:
   type: pdf
-  pdf-url: includes/pubs/contextual-2011.pdf
+  pdf-url: includes/pubs/entcs-2011.pdf
 
 
 ---
