@@ -10,7 +10,7 @@ note: "Proceedings of the 4th Workshop on Legal Ontologies and Artificial Intell
 date: 2010-07-01
 resource:
   type: pdf
-  pdf-url: includes/pubs/loiat2010-article.pdf
+  pdf-url: includes/pubs/loait2010-article.pdf
 
 
 ---
