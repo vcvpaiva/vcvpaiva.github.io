@@ -8,7 +8,7 @@ note: "Abstracts of the 14th International Congress of Logic, Methodology and Ph
 date: 2011-07-01
 resource:
   type: pdf
-  pdf-url: includes/pubs/fillLorenzen.pdf
+  pdf-url: includes/pubs/2011-fillLorenzen.pdf
 
 
 ---
