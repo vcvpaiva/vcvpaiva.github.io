@@ -9,6 +9,6 @@ note: "https://doi.org/10.1093/jigpal/jzx016"
 date: 2017-09-14
 resource:
   type: pdf
-  pdf-url: includes/pubs/2017-grisha.pdf
+  pdf-url: includes/pubs/2017-samuel-card.pdf
 
 ---
