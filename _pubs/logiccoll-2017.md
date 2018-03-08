@@ -6,7 +6,8 @@ authors:
 title: "Benchmarking linear logic"
 note: "Abstract in the Logic Colloquium, Stockholm, 2017"
 year: 2017
-resource:
-  type: pdf
-  pdf-url: includes/pubs/dePaivaReisLC2017.pdf
+
+
+
+
 ---
