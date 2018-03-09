@@ -5,8 +5,8 @@ authors:
   - Livy Real
   - Valeria de Paiva
 title: "Annotating Logic Inference Pitfalls"
-note: "Workshop on Data Provenance and Annotation in Computational Linguistics 2018, co-located with  TLT16 conference, Prague, Czech Republic"
-year: 2018
+note: "Workshop on Data Provenance and Annotation in Computational Linguistics, co-located with  TLT16, Prague, Czech Republic"
+year: 2015
 
 
 ----
