@@ -14,7 +14,7 @@ authors:
   - Rodrigo Souza
   - Valeria de Paiva
 title: "SICK-BR: a Portuguese corpus for inference"
-journal: "preprint version of paper in PROPOR2018(International Conference on the Computational Processing of Portuguese, Canela Brazil"
+journal: "preprint version of paper in PROPOR2018 (International Conference on the Computational Processing of Portuguese), Canela Brazil"
 date: 2018-09-26
 resource:
   type: pdf
