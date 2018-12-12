@@ -10,7 +10,7 @@ note: "Proceedings of the 2010 conference on Legal Knowledge and Information Sys
 date: 2010-08-12
 resource:
   type: pdf
-  pdf-url: includes/pubs/jurix2010.pdf
+  pdf-url: includes/pubs/jurix-2010.pdf
 
 
 ---

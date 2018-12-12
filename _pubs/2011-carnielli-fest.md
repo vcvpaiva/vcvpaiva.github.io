@@ -9,7 +9,7 @@ note: "Logic without frontiers—Festschrift for Walter Alexandre Carnielli on t
 date: 2011-06-01
 resource:
   type: pdf
-  pdf-url: includes/pubs/contextual-2011.pdf
+  pdf-url: includes/pubs/2011-Basic_Constructive_Modality.pdf
 
 
 ---
