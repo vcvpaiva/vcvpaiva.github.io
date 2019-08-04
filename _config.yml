@@ -1,5 +1,5 @@
 name: Valeria de Paiva
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 collections:
   services:
