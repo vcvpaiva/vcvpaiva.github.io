@@ -1,6 +1,6 @@
 name: Valeria de Paiva
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 collections:
   services:
     output: false
