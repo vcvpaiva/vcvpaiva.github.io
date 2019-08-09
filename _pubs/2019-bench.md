@@ -1,4 +1,5 @@
 type: article
+
 authors:
   - Carlos Olarte
   - Valeria de Paiva
