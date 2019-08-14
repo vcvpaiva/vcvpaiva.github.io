@@ -12,6 +12,6 @@ note: "ACL 2019, Florence, Italy"
 date: 2019-08-01
 resource:
   type: pdf
-  pdf-url: includes/pubs/2019-simpleNLi.pdf
+  pdf-url: includes/pubs/2019-simpleNLI.pdf
 
 ---
