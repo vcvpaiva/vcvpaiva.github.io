@@ -2,10 +2,10 @@
 type: article
 authors:
   - Kalouli, A.-L.
-  - A. Buis
-  - L. Real
-  - M. Palmer
-  - V. de Paiva
+  - Buis, A.
+  - Real, L.
+  - Palmer, M.
+  - de Paiva, V.
 title: "Explaining Simple Natural Language Inference"
 journal: "Proceedings of the 13th Linguistic Annotation Workshop (LAW 2019)"
 note: "ACL 2019, Florence, Italy"
