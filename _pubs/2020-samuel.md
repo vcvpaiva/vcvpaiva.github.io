@@ -9,7 +9,7 @@ note:
 date: 2020-07-01
 resource:
   type: pdf
-  pdf-url: 2020-smauel.pdf 
+  pdf-url: 2020-samuel.pdf 
 
 ---
 
