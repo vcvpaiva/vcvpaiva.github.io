@@ -9,7 +9,7 @@ note:
 date: 2020-07-01
 resource:
   type: pdf
-  pdf-url: 2020-samuel.pdf 
+  pdf-url: http://vcvpaiva.github.io/includes/pubs/2020-samuel.pdf 
 
 ---
 
