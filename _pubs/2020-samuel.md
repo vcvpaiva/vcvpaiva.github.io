@@ -4,7 +4,7 @@ authors:
   - de Paiva, Valeria
   - da Silva, Samuel Gomes
 title: "Kolgomorov-Veloso Problems and Dialectica Categories"
-journal: "Manuscript submitted, 2020"
+journal: "Book for Paulo A. Veloso, 2021"
 note:
 date: 2020-07-01
 resource:
