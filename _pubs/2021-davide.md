@@ -5,7 +5,7 @@ authors:
   - Spadetto, Matteo
   - de Paiva, Valeria
 title: "The Godel Fibration"
-journal: "Manuscript submitted, April 2021. Accepted by MFCS2021."
+journal: "In 46th International Symposium on Mathematical Foundations of Computer Science (MFCS 2021)."
 note:
 date: 2021-04-01
 resource:
