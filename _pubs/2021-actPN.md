@@ -5,7 +5,7 @@ authors:
   - Leal, Wilmer
   - de Paiva, Valeria
 title: "Dialectica Petri Nets"
-journal: "ArXiv preprint."
+journal: "ArXiv preprint, submitted to LMCS"
 note:
 date: 2021-06-01
 resource:
