@@ -1,6 +1,5 @@
 ---
-title: "Dialectica Categories Revisited"
-year: 2023
-venue: "Chapman University, 14 April, 2023, Orange County, CA"
+title: "War Times Proofs & futuristic programs" 
+venue: "Berkeley University, 13 October, 2023, Berkeley, CA"
 slides: includes/talks/BerkeleyLogColl2023.pdf
 ---
