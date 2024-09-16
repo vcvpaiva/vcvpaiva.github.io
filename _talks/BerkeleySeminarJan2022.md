@@ -1,6 +1,6 @@
 ---
-title: "Dialectica Categories Revisited"
-year: 2023
-venue: "Chapman University, 14 April, 2023, Orange County, CA"
-slides: includes/talks/2023-DialCatsChapman.pdf
+title: "Natural Language Inference: for humans and machines"
+year: 2022
+venue: "Topos Institute, 24 January, 2022, CA"
+slides: includes/talks/berkeleyseminar2022.pdf
 ---
