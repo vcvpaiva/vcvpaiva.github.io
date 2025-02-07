@@ -1,7 +1,7 @@
-My personal website is http://vcvpaiva.github.io/
+Personal website http://vcvpaiva.github.io/
 -------------------
 
-The style here is based on:
+The style  is based on:
 
 https://github.com/DavidDeharbe/DavidDeharbe.github.io
 
