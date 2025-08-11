@@ -6,7 +6,7 @@ collections:
     output: false
   pubs:
     output: false
-  talks:
+  slides:
     output: false
   projects:
     output: false 
