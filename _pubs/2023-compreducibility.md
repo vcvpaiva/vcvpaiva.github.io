@@ -5,9 +5,10 @@ authors:
   - Valenti, Manlio
   - de Paiva, Valeria
 title: "Categorifying computable reducibilities"
-journal: "arXiv 2208.08656, submitted."
+journal: "Logical Methods in Computer Science"
+volume: 21(1)
 note:
-date: 2023-02-01
+date: 2025-02-01
 resource:
   type: pdf
   pdf-url: includes/pubs/2022-computable.pdf 
